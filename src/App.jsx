@@ -7,6 +7,7 @@ import Education from "./features/education/Education";
 import Experience from "./features/experience/Experience";
 import InterestsList from "./features/interests/InterestsList";
 import Introduction from "./features/intro/Introduction";
+import ServicesList from "./features/services/ServicesList";
 import SkillsList from "./features/skills/SkillsList";
 
 const App = () => {
@@ -20,6 +21,7 @@ const App = () => {
           <Route path="/education" element={<Education />} />
           <Route path="/experience" element={<Experience />} />
           <Route path="/interests" element={<InterestsList />} />
+          <Route path="/services" element={<ServicesList />} />
         </Routes>
       </Router>
     </div>
