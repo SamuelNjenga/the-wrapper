@@ -1,0 +1,21 @@
+.welcome-text {
+  font-family: "Poppins", sans-serif;
+  font-size: 5rem;
+}
+
+.introduction-main {
+  padding-top: 60px;
+  padding-left: 40px;
+}
+
+.introduction-description {
+  width: 700px;
+  font-family: "Raleway", sans-serif;
+  border-left: 6px solid green;
+  height: 150px;
+  font-size: 1.5rem;
+}
+
+.padding-left {
+  padding-left: 20px;
+}
