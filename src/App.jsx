@@ -5,6 +5,7 @@ import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import About from "./features/about/About";
 import Education from "./features/education/Education";
 import Experience from "./features/experience/Experience";
+import Navigation from "./features/header/Navigation";
 import InterestsList from "./features/interests/InterestsList";
 import Introduction from "./features/intro/Introduction";
 import ServicesList from "./features/services/ServicesList";
@@ -14,6 +15,7 @@ const App = () => {
   return (
     <div>
       <Router>
+        <Navigation />
         <Routes>
           <Route path="/" element={<Introduction />} />
           <Route path="/skills" element={<SkillsList />} />

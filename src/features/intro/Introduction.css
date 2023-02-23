@@ -1,19 +1,31 @@
 .welcome-text {
   font-family: "Poppins", sans-serif;
-  font-size: 5rem;
+  font-size: 54px;
+  padding-left: 20px;
 }
 
 .introduction-main {
-  padding-top: 60px;
+  padding-top: 100px;
   padding-left: 40px;
 }
 
 .introduction-description {
-  width: 700px;
+  /* width: 700px; */
   font-family: "Raleway", sans-serif;
-  border-left: 6px solid green;
-  height: 150px;
+  /* border-left: 6px solid green; */
+  /* height: 85px; */
   font-size: 1.5rem;
+}
+
+/* If the screen size is 600px wide or less, hide the element */
+@media only screen and (max-width: 600px) {
+  .introduction-description {
+    /* width: 700px; */
+    font-family: "Raleway", sans-serif;
+    /* border-left: 6px solid green; */
+    /* height: 275px; */
+    font-size: 1.5rem;
+  }
 }
 
 .padding-left {
