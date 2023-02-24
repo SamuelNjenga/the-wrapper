@@ -37,7 +37,7 @@ const Navigation = () => {
         }}
       >
         <Container>
-          <Navbar.Brand className="nav-link-title">
+          <Navbar.Brand>
             <Avatar
               className="avatar-padding"
               alt="Sam Njenga"
@@ -60,13 +60,21 @@ const Navigation = () => {
               <Nav.Link
                 eventKey={1}
                 className="nav-link-class"
+                to="/"
+                as={Link}
+              >
+                HOME
+              </Nav.Link>
+              <Nav.Link
+                eventKey={2}
+                className="nav-link-class"
                 to="/services"
                 as={Link}
               >
                 SERVICES
               </Nav.Link>
               <Nav.Link
-                eventKey={2}
+                eventKey={3}
                 className="nav-link-class"
                 to="/portfolio"
                 as={Link}
@@ -75,7 +83,7 @@ const Navigation = () => {
               </Nav.Link>
               <Nav.Link
                 className="nav-link-class"
-                eventKey={3}
+                eventKey={4}
                 to="/about"
                 as={Link}
               >
