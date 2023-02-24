@@ -37,8 +37,9 @@ const Navigation = () => {
         }}
       >
         <Container>
-          <Navbar.Brand href="#home" className="nav-link-title">
+          <Navbar.Brand className="nav-link-title">
             <Avatar
+              className="avatar-padding"
               alt="Sam Njenga"
               src={window.location.origin + "/src/assets/samuel_njenga.jpg"}
               sx={{ width: 56, height: 56 }}
@@ -56,26 +57,38 @@ const Navigation = () => {
           <Navbar.Collapse id="responsive-navbar-nav">
             <Nav className="me-auto"></Nav>
             <Nav>
-              <Link to="services" style={{ textDecoration: "none" }}>
-                <Nav.Link eventKey={1} className="nav-link-class">
-                  SERVICES
-                </Nav.Link>
-              </Link>
-              <Link to="porfolio" style={{ textDecoration: "none" }}>
-                <Nav.Link eventKey={2} className="nav-link-class">
-                  PORTFOLIO
-                </Nav.Link>
-              </Link>
-              <Link to="about" style={{ textDecoration: "none" }}>
-                <Nav.Link className="nav-link-class" eventKey={3}>
-                  ABOUT
-                </Nav.Link>
-              </Link>
-              <Link to="contact" style={{ textDecoration: "none" }}>
-                <Nav.Link className="nav-link-class" eventKey={5}>
-                  CONTACT
-                </Nav.Link>
-              </Link>
+              <Nav.Link
+                eventKey={1}
+                className="nav-link-class"
+                to="/services"
+                as={Link}
+              >
+                SERVICES
+              </Nav.Link>
+              <Nav.Link
+                eventKey={2}
+                className="nav-link-class"
+                to="/portfolio"
+                as={Link}
+              >
+                PORTFOLIO
+              </Nav.Link>
+              <Nav.Link
+                className="nav-link-class"
+                eventKey={3}
+                to="/about"
+                as={Link}
+              >
+                ABOUT
+              </Nav.Link>
+              <Nav.Link
+                className="nav-link-class"
+                eventKey={5}
+                to="/contact"
+                as={Link}
+              >
+                CONTACT
+              </Nav.Link>
             </Nav>
           </Navbar.Collapse>
         </Container>

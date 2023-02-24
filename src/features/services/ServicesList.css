@@ -4,3 +4,7 @@
 .service-minitext {
   font-family: "Roboto", sans-serif;
 }
+.service-main {
+  padding-top: 100px;
+  padding-left: 40px;
+}
