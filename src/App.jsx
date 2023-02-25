@@ -6,6 +6,7 @@ import About from "./features/about/About";
 import Contact from "./features/contact/Contact";
 import Education from "./features/education/Education";
 import Experience from "./features/experience/Experience";
+import Footer from "./features/footer/Footer";
 import Navigation from "./features/header/Navigation";
 import InterestsList from "./features/interests/InterestsList";
 import Introduction from "./features/intro/Introduction";
@@ -15,7 +16,7 @@ import SkillsList from "./features/skills/SkillsList";
 
 const App = () => {
   return (
-    <div>
+    <div style={{ position: "relative", minHeight: "100vh" }}>
       <Router>
         <Navigation />
         <Routes>
@@ -29,6 +30,7 @@ const App = () => {
           <Route path="/services" element={<ServicesList />} />
           <Route path="/portfolio" element={<Portfolio />} />
         </Routes>
+        <Footer />
       </Router>
     </div>
   );
