@@ -105,8 +105,12 @@
   margin-right: 30px;
 }
 
-.center-icon{
+.center-icon {
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+.portfolio-title {
+  font-family: "Labrada", serif;
 }

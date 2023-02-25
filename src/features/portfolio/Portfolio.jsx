@@ -8,7 +8,9 @@ import "./Portfolio.css";
 const Portfolio = () => {
   return (
     <div className="portfolio-main">
-      <h4>Take a look at some of the projects am working on currently</h4>
+      <h4 className="portfolio-title">
+        Take a look at some of the projects am working on currently
+      </h4>
       <div id="portfolio" className="margin-right">
         <div class="container-fluid p-0">
           <div class="row g-0">
@@ -24,7 +26,7 @@ const Portfolio = () => {
                   alt="..."
                 />
                 <div class="portfolio-box-caption">
-                  <div class="project-name">Restaurant App</div>
+                  <div class="project-name portfolio-title">RESTAURANT APP</div>
                   <div class="project-category text-white-50 center-icon">
                     App Link <LinkIcon />
                   </div>
@@ -43,7 +45,7 @@ const Portfolio = () => {
                   alt="..."
                 />
                 <div class="portfolio-box-caption">
-                  <div class="project-name">Messaging App</div>
+                  <div class="project-name portfolio-title">MESSAGING APP</div>
                   <div class="project-category text-white-50 center-icon">
                     App Link <LinkIcon />
                   </div>
@@ -62,7 +64,7 @@ const Portfolio = () => {
                   alt="..."
                 />
                 <div class="portfolio-box-caption">
-                  <div class="project-name">Workout App</div>
+                  <div class="project-name portfolio-title">WORKOUT APP</div>
                   <div class="project-category text-white-50 center-icon">
                     App Link <LinkIcon />
                   </div>
