@@ -9,6 +9,7 @@ import Experience from "./features/experience/Experience";
 import Navigation from "./features/header/Navigation";
 import InterestsList from "./features/interests/InterestsList";
 import Introduction from "./features/intro/Introduction";
+import Portfolio from "./features/portfolio/Portfolio";
 import ServicesList from "./features/services/ServicesList";
 import SkillsList from "./features/skills/SkillsList";
 
@@ -26,6 +27,7 @@ const App = () => {
           <Route path="/experience" element={<Experience />} />
           <Route path="/interests" element={<InterestsList />} />
           <Route path="/services" element={<ServicesList />} />
+          <Route path="/portfolio" element={<Portfolio />} />
         </Routes>
       </Router>
     </div>
