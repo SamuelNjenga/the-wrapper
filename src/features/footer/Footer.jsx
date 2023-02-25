@@ -2,6 +2,8 @@ import React from "react";
 
 import "./Footer.css";
 const Footer = () => {
+  const today = new Date();
+  const year = today.getFullYear();
   return (
     <footer className="border-top" id="footer">
       <div className="container px-4 px-lg-5 mt-12">
@@ -11,7 +13,7 @@ const Footer = () => {
               className="small text-center text-muted fst-italic"
               style={{ padding: "10px" }}
             >
-              Copyright &copy; Samuel Njenga 2023
+              Copyright &copy; Samuel Njenga {year}
             </div>
           </div>
         </div>
