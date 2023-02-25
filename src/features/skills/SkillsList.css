@@ -1,0 +1,55 @@
+.skills-header,
+.languages-tools {
+  font-family: "Poppins", sans-serif;
+}
+.skills-header {
+  font-size: 34px;
+}
+.languages-tools {
+  font-size: 24px;
+}
+section.resume-section {
+  display: flex;
+  align-items: center;
+  /* padding-left: 1rem; */
+  padding-right: 14rem;
+  /* padding-top: 2rem; */
+  padding-bottom: 5rem;
+  max-width: 175rem;
+}
+
+section.resume-section .resume-section-content {
+  /* width: 100%; */
+}
+
+@media (min-width: 768px) {
+  section.resume-section {
+    /* min-height: 100vh; */
+  }
+}
+@media (min-width: 992px) {
+  section.resume-section {
+    /* padding-left: 3rem; */
+    padding-right: 3rem;
+    /* padding-top: 5rem; */
+    padding-bottom: 5rem;
+  }
+}
+
+.list-inline {
+  padding-left: 0;
+  list-style: none;
+}
+
+.list-inline-item {
+  display: inline-block;
+}
+
+.list-inline-item:not(:last-child) {
+  margin-right: 0.5rem;
+}
+
+.dev-icons {
+  font-size: 1.3rem;
+  color: rgba(177, 10, 10, 0.55);
+}

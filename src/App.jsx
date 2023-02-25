@@ -3,6 +3,7 @@ import React from "react";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 
 import About from "./features/about/About";
+import Contact from "./features/contact/Contact";
 import Education from "./features/education/Education";
 import Experience from "./features/experience/Experience";
 import Navigation from "./features/header/Navigation";
@@ -20,6 +21,7 @@ const App = () => {
           <Route path="/" element={<Introduction />} />
           <Route path="/skills" element={<SkillsList />} />
           <Route path="/about" element={<About />} />
+          <Route path="/contact" element={<Contact />} />
           <Route path="/education" element={<Education />} />
           <Route path="/experience" element={<Experience />} />
           <Route path="/interests" element={<InterestsList />} />
