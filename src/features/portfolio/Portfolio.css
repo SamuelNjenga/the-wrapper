@@ -113,4 +113,8 @@
 
 .portfolio-title {
   font-family: "Labrada", serif;
+  text-align: center;
+  margin-right: 5px;
+  font-weight: bold;
+
 }

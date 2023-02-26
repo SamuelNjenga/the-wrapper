@@ -1,0 +1,10 @@
+.awards-title {
+  font-family: "Labrada", serif;
+  text-align: center;
+  margin-right: 5px;
+  font-weight: bold;
+}
+.awards-text {
+  /* font-family: "Raleway", sans-serif; */
+  font-family: 'Source Serif Pro', serif;
+}
