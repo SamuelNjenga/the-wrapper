@@ -116,5 +116,14 @@
   text-align: center;
   margin-right: 5px;
   font-weight: bold;
+}
 
+.img-div {
+  position: relative;
+}
+.number-text {
+  position: absolute;
+  color: red;
+  left: 0;
+  z-index: 1000;
 }
