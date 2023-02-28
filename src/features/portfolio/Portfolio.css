@@ -127,3 +127,8 @@
   left: 0;
   z-index: 1000;
 }
+
+.avatar-text {
+  font-family: "Raleway", sans-serif;
+  color: red;
+}
