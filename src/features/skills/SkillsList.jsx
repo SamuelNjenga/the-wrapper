@@ -13,35 +13,59 @@ const SkillsList = () => {
         <div className="resume-section-content">
           <ul className="list-inline dev-icons">
             <li className="list-inline-item skill-text">
-              <FiberManualRecordIcon fontSize="small" />
+              <FiberManualRecordIcon
+                className="skills-icons"
+                fontSize="small"
+              />
               <span>HTML</span>
             </li>
             <li className="list-inline-item skill-text">
-              <FiberManualRecordIcon fontSize="small" />
+              <FiberManualRecordIcon
+                className="skills-icons"
+                fontSize="small"
+              />
               <span>CSS</span>
             </li>
             <li className="list-inline-item skill-text">
-              <FiberManualRecordIcon fontSize="small" />
+              <FiberManualRecordIcon
+                className="skills-icons"
+                fontSize="small"
+              />
               <span>JavaScript</span>
             </li>
             <li className="list-inline-item skill-text">
-              <FiberManualRecordIcon fontSize="small" />
+              <FiberManualRecordIcon
+                className="skills-icons"
+                fontSize="small"
+              />
               <span>React</span>
             </li>
             <li className="list-inline-item skill-text">
-              <FiberManualRecordIcon fontSize="small" />
+              <FiberManualRecordIcon
+                className="skills-icons"
+                fontSize="small"
+              />
               <span>NodeJs</span>
             </li>
             <li className="list-inline-item skill-text">
-              <FiberManualRecordIcon fontSize="small" />
+              <FiberManualRecordIcon
+                className="skills-icons"
+                fontSize="small"
+              />
               <span>Express Framework</span>
             </li>
             <li className="list-inline-item skill-text">
-              <FiberManualRecordIcon fontSize="small" />
+              <FiberManualRecordIcon
+                className="skills-icons"
+                fontSize="small"
+              />
               <span>SQL</span>
             </li>
             <li className="list-inline-item skill-text">
-              <FiberManualRecordIcon fontSize="small" />
+              <FiberManualRecordIcon
+                className="skills-icons"
+                fontSize="small"
+              />
               <span>Git</span>
             </li>
           </ul>

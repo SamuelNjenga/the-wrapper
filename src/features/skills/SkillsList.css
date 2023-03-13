@@ -45,6 +45,11 @@ section.resume-section .resume-section-content {
   display: inline-block;
 }
 
+.skills-icons {
+  padding: 0.125em;
+  display: inline-block;
+}
+
 .list-inline-item:not(:last-child) {
   margin-right: 0.5rem;
 }
