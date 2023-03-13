@@ -53,3 +53,7 @@ section.resume-section .resume-section-content {
   font-size: 1.3rem;
   color: rgb(169, 169, 169);
 }
+
+.skill-text {
+  font-family: "Nunito Sans", sans-serif;
+}

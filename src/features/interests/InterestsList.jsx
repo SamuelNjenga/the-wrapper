@@ -5,7 +5,7 @@ const InterestsList = () => {
   return (
     <div>
       <h4 className="interests-header">Interests</h4>
-      <p>
+      <p className="interests-text">
         Apart from being a web developer, I enjoy most of my time being
         outdoors. In my free time, I enjoy engaging in video games. During the
         warmer sesons, I enjoy biking to some degree. When forced indoors, I am
