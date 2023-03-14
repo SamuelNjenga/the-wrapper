@@ -6,12 +6,11 @@ const InterestsList = () => {
     <div>
       <h4 className="interests-header">Interests</h4>
       <p className="interests-text">
-        Apart from being a web developer, I enjoy most of my time being
-        outdoors. In my free time, I enjoy engaging in video games. During the
-        warmer sesons, I enjoy biking to some degree. When forced indoors, I am
-        an aspiring chef, and I spend a large amount of my free time exploring
-        the latest technology advancements in both the front-end and back-end
-        web development world.
+        Apart from being a web developer, I spend a part of my time being
+        outdoors just engaging in creative activities. At times when indoors, I
+        spend my time exploring the latest technology advancements in both the
+        front-end and back-end development world. I also participate in solving
+        puzzles which gets interesting most of the times.
       </p>
     </div>
   );

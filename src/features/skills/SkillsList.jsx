@@ -52,6 +52,13 @@ const SkillsList = () => {
                 className="skills-icons"
                 fontSize="small"
               />
+              <span>TypeScript</span>
+            </li>
+            <li className="list-inline-item skill-text">
+              <FiberManualRecordIcon
+                className="skills-icons"
+                fontSize="small"
+              />
               <span>Express Framework</span>
             </li>
             <li className="list-inline-item skill-text">
@@ -88,13 +95,19 @@ const SkillsList = () => {
               <span className="fa-li">
                 <i className="fas fa-check"></i>
               </span>
+              Code that aligns with the industry standards
+            </li>
+            <li className="skill-text">
+              <span className="fa-li">
+                <i className="fas fa-check"></i>
+              </span>
               Reliable, secure and on-time UI reponse
             </li>
             <li className="skill-text">
               <span className="fa-li">
                 <i className="fas fa-check"></i>
               </span>
-              Responsive Design and UI
+              Responsive Design & UI
             </li>
             <li className="skill-text">
               <span className="fa-li">
