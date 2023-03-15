@@ -1,6 +1,5 @@
-import { Divider } from "@mui/material";
-
 import React from "react";
+import { Link } from "react-router-dom";
 
 import "./Introduction.css";
 
@@ -19,6 +18,14 @@ const Introduction = () => {
           I am passionate about cutting-edge, pixel-perfect, beautiful
           interfaces and intuitively implemented UX.
         </h5>
+        <Link to="/portfolio" style={{ textDecoration: "none" }}>
+          <h6 className="padding-left text-italics">
+            View Portfolio
+            <div className="arrow bounce">
+              <a className="fa fa-arrow-down fa-2x"></a>
+            </div>
+          </h6>
+        </Link>
       </div>
     </div>
   );
