@@ -3,7 +3,6 @@ import React from "react";
 import GitHubIcon from "@mui/icons-material/GitHub";
 import LinkedInIcon from "@mui/icons-material/LinkedIn";
 import EmailIcon from "@mui/icons-material/Email";
-import { grey } from "@mui/material/colors";
 import { Card } from "react-bootstrap";
 
 import "./Contact.css";
@@ -22,7 +21,12 @@ const Contact = () => {
                 </Card.Text>
               </Card.Body>
               <Card.Footer>
-                <small className="text-muted">Link here</small>
+                <a
+                  href="https://github.com/SamuelNjenga"
+                  className="text-muted link-text"
+                >
+                  Link Here
+                </a>
               </Card.Footer>
             </Card>
           </div>
@@ -35,7 +39,12 @@ const Contact = () => {
                 </Card.Text>
               </Card.Body>
               <Card.Footer>
-                <small className="text-muted">Link here</small>
+                <a
+                  href="https://www.linkedin.com/in/samuel-njenga-493736192/"
+                  className="text-muted link-text"
+                >
+                  Link Here
+                </a>
               </Card.Footer>
             </Card>
           </div>

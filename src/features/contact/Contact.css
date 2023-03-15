@@ -16,6 +16,10 @@
 .icon-center {
   text-align: center;
 }
-.icon-color{
+.icon-color {
   color: #9e9e9e;
+}
+
+.link-text {
+  text-decoration: none;
 }
