@@ -12,7 +12,7 @@ section.resume-section {
   display: flex;
   align-items: center;
   /* padding-left: 1rem; */
-  padding-right: 14rem;
+  /* padding-right: 14rem; */
   /* padding-top: 2rem; */
   /* padding-bottom: 5rem; */
   max-width: 175rem;
@@ -25,6 +25,7 @@ section.resume-section .resume-section-content {
 @media (min-width: 768px) {
   section.resume-section {
     /* min-height: 100vh; */
+    max-width: 90%;
   }
 }
 @media (min-width: 992px) {
