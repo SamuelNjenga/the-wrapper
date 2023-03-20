@@ -73,6 +73,13 @@ const SkillsList = () => {
                 className="skills-icons"
                 fontSize="small"
               />
+              <span>Swagger tool</span>
+            </li>
+            <li className="list-inline-item skill-text">
+              <FiberManualRecordIcon
+                className="skills-icons"
+                fontSize="small"
+              />
               <span>Git</span>
             </li>
           </ul>
@@ -82,7 +89,7 @@ const SkillsList = () => {
               <span className="fa-li">
                 <i className="fas fa-check"></i>
               </span>
-              Keeping the Code Simple & Maintainable
+              Keeping the code simple & maintainable
             </li>
             <li className="skill-text">
               <span className="fa-li">
@@ -101,31 +108,31 @@ const SkillsList = () => {
               <span className="fa-li">
                 <i className="fas fa-check"></i>
               </span>
-              Reliable, secure and on-time UI reponse
+              Reliable, secure, interactive and on-time UI reponse
             </li>
             <li className="skill-text">
               <span className="fa-li">
                 <i className="fas fa-check"></i>
               </span>
-              Responsive Design & UI
+              Responsive design & UI
             </li>
             <li className="skill-text">
               <span className="fa-li">
                 <i className="fas fa-check"></i>
               </span>
-              Cross Browser Testing & Debugging
+              Cross browser testing & debugging
             </li>
             <li className="skill-text">
               <span className="fa-li">
                 <i className="fas fa-check"></i>
               </span>
-              Quality Progressive Web Applications
+              Quality, seamless progressive web applications
             </li>
             <li className="skill-text">
               <span className="fa-li">
                 <i className="fas fa-check"></i>
               </span>
-              Agile Development & Scrum
+              Agile development methodology
             </li>
           </ul>
         </div>

@@ -15,8 +15,10 @@ const Introduction = () => {
           Ecommerce platforms.
         </h5>
         <h5 className="padding-left justify-text">
-          I am passionate about cutting-edge, pixel-perfect, beautiful
-          interfaces and intuitively implemented UX.
+          I work with companies and agencies around the world, building Web user
+          interfaces and digital products with a focus on responsive design,
+          accessibility, performance, and contemporary, cutting-edge,
+          technologies.
         </h5>
         <Link to="/portfolio" style={{ textDecoration: "none" }}>
           <h6 className="padding-left text-italics">

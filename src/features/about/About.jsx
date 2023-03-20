@@ -12,8 +12,9 @@ const About = () => {
       <p className="about-text">
         Ever wondered how you can build an online presence which can help users
         to find you easily on the internet? You need not worry anymore. Because
-        that's basically how I do serve my clients. Feel free to take a look at
-        my current tech stack which am still broadening in terms of learning.
+        that's basically how I serve my clients. Feel free to take a look at my
+        current tech stack below which am still broadening in terms of learning.
+        
       </p>
       <SkillsList />
       <InterestsList />

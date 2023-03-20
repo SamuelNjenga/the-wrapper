@@ -28,7 +28,7 @@ const ServicesList = () => {
                 </div>
                 <h3 className="h4 mb-2 service-maintext">Good Quality Job</h3>
                 <p className="text-muted mb-0 service-minitext">
-                  Reliable and efficient job
+                  Reliable and efficient apps
                 </p>
               </div>
             </div>
@@ -39,7 +39,7 @@ const ServicesList = () => {
                 </div>
                 <h3 className="h4 mb-2 service-maintext">Over Deliver</h3>
                 <p className="text-muted mb-0 service-minitext">
-                  Going a step more than enough
+                  Taking it a step more than good enough
                 </p>
               </div>
             </div>
