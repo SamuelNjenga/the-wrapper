@@ -2,7 +2,7 @@
   font-family: "Poppins", sans-serif;
   font-size: 54px;
   padding-left: 20px;
-  padding-bottom: 4.5rem;
+  padding-bottom: 1.5rem;
 }
 
 .introduction-main {
@@ -107,4 +107,9 @@ a {
 .text-italics {
   font-style: italic;
   color: rgba(217, 245, 39, 0.43);
+}
+
+.justify-text {
+  text-align: justify;
+  margin-right: 30px;
 }

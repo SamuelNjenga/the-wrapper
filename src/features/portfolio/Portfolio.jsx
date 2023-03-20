@@ -2,6 +2,7 @@ import React from "react";
 
 import LinkIcon from "@mui/icons-material/Link";
 import Avatar from "@mui/material/Avatar";
+import GitHubIcon from "@mui/icons-material/GitHub";
 import { deepOrange } from "@mui/material/colors";
 
 import Awards from "../awards/Awards";
@@ -39,7 +40,7 @@ const Portfolio = () => {
                     RESTAURANT APP
                   </div>
                   <div className="project-category text-white-50 center-icon">
-                    App Link <LinkIcon />
+                    App Link <GitHubIcon />
                   </div>
                 </div>
               </a>
@@ -67,7 +68,7 @@ const Portfolio = () => {
                     MESSAGING APP
                   </div>
                   <div className="project-category text-white-50 center-icon">
-                    App Link <LinkIcon />
+                    App Link <GitHubIcon />
                   </div>
                 </div>
               </a>
@@ -95,7 +96,7 @@ const Portfolio = () => {
                     WORKOUT APP
                   </div>
                   <div className="project-category text-white-50 center-icon">
-                    App Link <LinkIcon />
+                    <GitHubIcon />
                   </div>
                 </div>
               </a>
