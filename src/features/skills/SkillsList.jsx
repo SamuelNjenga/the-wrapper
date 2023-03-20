@@ -10,7 +10,7 @@ const SkillsList = () => {
       <h4 className="skills-header">Skills</h4>
       <h5 className="languages-tools">Programming Languages & Tools</h5>
       <section className="resume-section" id="skills">
-        <div className="resume-section-content">
+        <div className="resume-section-content justify-content">
           <ul className="list-inline dev-icons">
             <li className="list-inline-item skill-text">
               <FiberManualRecordIcon

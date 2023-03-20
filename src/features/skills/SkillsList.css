@@ -7,6 +7,7 @@
 }
 .languages-tools {
   font-size: 24px;
+  margin-right: 15px;
 }
 section.resume-section {
   display: flex;
@@ -62,4 +63,8 @@ section.resume-section .resume-section-content {
 
 .skill-text {
   font-family: "Nunito Sans", sans-serif;
+}
+
+.justify-content {
+  text-align: justify;
 }

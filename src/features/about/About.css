@@ -7,4 +7,6 @@
 
 .about-text {
   font-family: "Nunito Sans", sans-serif;
+  text-align: justify;
+  margin-right: 30px;
 }
