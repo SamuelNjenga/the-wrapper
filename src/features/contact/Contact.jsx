@@ -9,13 +9,17 @@ import "./Contact.css";
 const Contact = () => {
   return (
     <div className="contact-main">
-      <h4>Want to connect with me? Here are my socials</h4>
+      <h4 className="text-title connect-title">
+        Want to connect with me? Here are my socials
+      </h4>
       <div>
         <div className="margin-right socials-div">
-          <div className="card-div">
+          <div className="card-div github-div">
             <Card>
               <Card.Body>
-                <Card.Title>Github</Card.Title>
+                <Card.Title>
+                  <span className="socials-title">Github</span>
+                </Card.Title>
                 <Card.Text className="icon-center icon-color">
                   <GitHubIcon />
                 </Card.Text>
@@ -30,10 +34,12 @@ const Contact = () => {
               </Card.Footer>
             </Card>
           </div>
-          <div className="card-div">
+          <div className="card-div linkedin-text">
             <Card>
               <Card.Body>
-                <Card.Title>LinkedIn</Card.Title>
+                <Card.Title>
+                  <span className="socials-title">LinkedIn</span>
+                </Card.Title>
                 <Card.Text className="icon-center icon-color">
                   <LinkedInIcon />
                 </Card.Text>
@@ -50,13 +56,17 @@ const Contact = () => {
           </div>
         </div>
       </div>
-      <h4>You can also reach out to me through</h4>
-      <div>
+      {/* <h3>Want to work together or have any questions?</h3> */}
+      <div className="email-div">
         <div className="margin-right socials-div">
           <div className="card-div">
             <Card>
               <Card.Body>
-                <Card.Title>Email</Card.Title>
+                <Card.Title>
+                  <h4 className="text-title">
+                    Want to work together or have any questions?
+                  </h4>
+                </Card.Title>
                 <Card.Text className="icon-center icon-color">
                   <EmailIcon />
                 </Card.Text>
