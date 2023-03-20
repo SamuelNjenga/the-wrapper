@@ -32,7 +32,7 @@ const Portfolio = () => {
               >
                 <img
                   className="img-fluid"
-                  src="/src/assets/thumbnails/restaurant_caption.jpg"
+                  src="/assets/thumbnails/restaurant_caption.jpg"
                   alt="..."
                 />
                 <div className="portfolio-box-caption">
@@ -60,7 +60,7 @@ const Portfolio = () => {
               >
                 <img
                   className="img-fluid"
-                  src="/src/assets/thumbnails/messaging_caption.jpg"
+                  src="/assets/thumbnails/messaging_caption.jpg"
                   alt="..."
                 />
                 <div className="portfolio-box-caption">
@@ -88,7 +88,7 @@ const Portfolio = () => {
               >
                 <img
                   className="img-fluid"
-                  src="/src/assets/thumbnails/workout_caption.jpg"
+                  src="/assets/thumbnails/workout_caption.jpg"
                   alt="..."
                 />
                 <div className="portfolio-box-caption">

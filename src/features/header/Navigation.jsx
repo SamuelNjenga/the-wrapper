@@ -41,7 +41,7 @@ const Navigation = () => {
             <Avatar
               className="avatar-padding"
               alt="Sam Njenga"
-              src={window.location.origin + "/src/assets/samuel_njenga.jpg"}
+              src={"/assets/samuel_njenga.jpg"}
               sx={{ width: 56, height: 56 }}
             />
           </Navbar.Brand>
