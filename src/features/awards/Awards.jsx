@@ -3,7 +3,7 @@ import React from "react";
 import "./Awards.css";
 const Awards = () => {
   return (
-    <div>
+    <div className="justify-content">
       <h4 className="awards-title"> Awards & Certifications:</h4>
       <div className="awards-text">
         1. Courses on Frontend Tools and Technologies from Udemy.
@@ -19,7 +19,8 @@ const Awards = () => {
         Coursera.
       </div>
       <h4 className="awards-title">
-        Other Challenges I engage in to keep myself grounded and up to par with tech:
+        Other Challenges I engage in to keep myself grounded and up to par with
+        tech:
       </h4>
       <div className="awards-text">1. HackerRank coding challenges.</div>
       <div className="awards-text">2. LeetCode coding challenges.</div>
