@@ -8,7 +8,7 @@ import "./About.css";
 const About = () => {
   return (
     <div className="about-main">
-      <h4>About Me</h4>
+      <h4 className="aboutme-text">About Me</h4>
       <p className="about-text">
         Ever wondered how you can build an online presence which can help users
         to find you easily on the internet? You need not worry anymore. Because
