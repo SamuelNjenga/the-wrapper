@@ -73,6 +73,20 @@ const SkillsList = () => {
                 className="skills-icons"
                 fontSize="small"
               />
+              <span>NextJS</span>
+            </li>
+            <li className="list-inline-item skill-text">
+              <FiberManualRecordIcon
+                className="skills-icons"
+                fontSize="small"
+              />
+              <span>Azure</span>
+            </li>
+            <li className="list-inline-item skill-text">
+              <FiberManualRecordIcon
+                className="skills-icons"
+                fontSize="small"
+              />
               <span>Swagger tool</span>
             </li>
             <li className="list-inline-item skill-text">
